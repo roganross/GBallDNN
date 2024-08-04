@@ -27,7 +27,7 @@ def batch_convert_folder(input_folder, output_folder):
             print(f"Converted: {filename}")
 
 # Example usage
-input_folder = r'C:\Users\rogan\Documents\Programming\GBallDNN\GBallSet\1'
-output_folder = r'C:\Users\rogan\Documents\Programming\GBallDNN\GBallSet\1j'
+input_folder = r'path\to\folder'
+output_folder = r'path\to\folder'
 
 batch_convert_folder(input_folder, output_folder)

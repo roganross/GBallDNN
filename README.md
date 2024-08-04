@@ -12,4 +12,5 @@ Includes python scripts to convert HEIC (iphone) images to JPG so they can be us
 # Acknowledgements
 
 Dan Landers (Idea)
+
 ChatGPT (Coding Assistance)

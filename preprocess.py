@@ -39,10 +39,10 @@ def save_preprocessed_images(input_folder, output_folder):
             Image.fromarray((preprocessed_image * 255).astype(np.uint8)).save(output_path)
 
 # Example usage
-pos_folder = r'C:\Users\rogan\Documents\Programming\GBallDNN\GBallSet\1j'
-neg_folder = r'C:\Users\rogan\Documents\Programming\GBallDNN\GBallSet\0j'
+pos_folder = r'path\to\folder'
+neg_folder = r'path\to\folder'
 output_label_file = 'labels.csv'
-output_preprocessed_folder = r'C:\Users\rogan\Documents\Programming\GBallDNN\GBallSet\preprocessed_images'
+output_preprocessed_folder = r'path\to\folder'
 
 # Create label file
 create_label_file(pos_folder, neg_folder, output_label_file)

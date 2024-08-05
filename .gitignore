@@ -5,3 +5,11 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+
+# CSV files to ignore
+neg_labels.csv
+pos_labels.csv
+
+# Directories to ignore
+GBallSet
+
